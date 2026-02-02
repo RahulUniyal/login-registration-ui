@@ -1,0 +1,95 @@
+/* ===== Page Background ===== */
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Registration Card ===== */
+.Registration{
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.25);
+    width: 340px;
+    transition: transform 0.3s ease;
+}
+
+.Registration:hover{
+    transform: translateY(-5px);
+}
+
+/* ===== Form Layout ===== */
+.Registration form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* ===== Heading ===== */
+.Registration h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* ===== Inputs ===== */
+.Registration input{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.Registration input:focus{
+    border-color: #667eea;
+    box-shadow: 0 0 6px rgba(102,126,234,0.6);
+}
+
+/* ===== Register Button ===== */
+.Registration button{
+    width: 130px;
+    margin: 10px auto 0;
+
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Registration button:hover{
+    background: #764ba2;
+    transform: scale(1.05);
+}
+.register-link{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+.register-link a{
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.register-link a:hover{
+    color: #6a11cb;
+    text-decoration: underline;
+}
+
